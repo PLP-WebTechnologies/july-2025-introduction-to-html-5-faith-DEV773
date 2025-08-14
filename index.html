@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to build accessible and SEO-friendly web pages using HTML5 semantic tags.">
+    <meta name="keywords" content="HTML5, Accessibility, SEO, Web Development, Semantic HTML">
+    <meta name="author" content="Faith Mumbe">
+
+    <title>Accessible & SEO-Friendly HTML5 Web Page</title>
+</head>
+<body>
+    <!-- Skip to content link for screen readers -->
+    <a class="visually-hidden" href="#main-content">Skip to main content</a>
+
+    <header role="banner">
+        <h1>Accessible & SEO-Friendly HTML5 Page</h1>
+        <p>Building websites that are inclusive and discoverable.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about" title="Learn more about this project">About</a></li>
+            <li><a href="#features" title="Discover accessibility and SEO features">Features</a></li>
+            <li><a href="#contact" title="Get in touch with us">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content" role="main">
+        <article id="about">
+            <header>
+                <h2>About This Page</h2>
+            </header>
+            <p>This example demonstrates how to use <strong>HTML5 semantic tags</strong> to structure a web page for better accessibility and SEO. It includes clear headings, descriptive link text, and optimized metadata.</p>
+        </article>
+
+        <article id="features">
+            <header>
+                <h2>Key Features</h2>
+            </header>
+            <section>
+                <h3>Semantic HTML</h3>
+                <p>Using tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> improves both readability and machine understanding.</p>
+            </section>
+            <section>
+                <h3>Accessibility</h3>
+                <p>Features like skip links, descriptive alt text, and proper heading hierarchy make this page more inclusive for all users.</p>
+                
+            </section>
+            <section>
+                <h3>SEO Optimization</h3>
+                <p>Relevant metadata, keyword-rich headings, and descriptive content help search engines understand and rank the page effectively.</p>
+            </section>
+        </article>
+
+        <aside>
+            <h2>Quick Tips</h2>
+            <ul>
+                <li>Use descriptive page titles and headings.</li>
+                <li>Ensure color contrast meets WCAG standards.</li>
+                <li>Add alt text for all images.</li>
+                <li>Use logical heading hierarchy for clarity.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer role="contentinfo">
+        <h2 class="visually-hidden">Footer</h2>
+        <p>&copy; 2025 Faith Muthiani. All rights reserved.</p>
+        <p><a href="#main-content">Back to top</a></p>
+    </footer>
+</body>
+</html>    
